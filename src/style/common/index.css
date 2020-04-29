@@ -1,0 +1,113 @@
+
+/* 整个项目的根节点是root */
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+/* 布局的最外层容器 */
+.layout-container{
+  height: 100%;
+}
+
+.menu-trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  
+ /* .menu-trigger:hover {
+     color: #1890ff;
+ } */
+
+.ant-layout-header{
+  background-color: #ffffff !important;
+  /* background: linear-gradient(to right,#ffffff, #787879) !important; */
+  padding: 0 !important;
+}
+ /* .header-menu{
+    color: #ffffff;
+ } */
+/* ul.ant-menu{
+  background: rgba(255, 255, 255, 0);
+} */
+
+.logo,.logo-min{
+  height: 100%;
+  margin: 0px;
+  float: left;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  transition: all 200ms;
+  /* background-color: #ffffff; */
+  background-color: rgba(255, 255, 255, 0);
+}
+.logo {
+  width: 200px;
+  /* background-image: url(../img/logo.png); */
+  background-color: #001529;
+}
+.logo-min{
+  width: 80px;
+  background-color: #001529;
+  /* background-image: url(../img/logo-min.png); */
+}
+
+/* .menu-container */
+ /* ,
+ .ant-layout-sider-children .ant-menu */
+/* {
+  background: linear-gradient(#F5F5F5, #787879) !important;
+} */
+ /* .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected { */
+   /* background-color: #b9d6f1 !important; */
+ /* } */
+
+.header-menu{
+  height: 100%;
+  border-bottom: 0px !important;
+}
+
+.header-menu> li[role="menuitem"]{
+  padding-top: 9px;
+  padding-bottom: 8px;
+}
+
+
+/* 表格上的操作按钮 */
+.table-operate-icon{
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.anticon-edit.table-operate-icon{
+  color: #087c08;
+}
+
+.anticon-delete.table-operate-icon{
+  color: #aa0b0b;
+}
+
+.anticon-stop.table-operate-icon{
+  color: #d3981a;
+}
+
+.anticon-check-circle.table-operate-icon{
+  color: #1890ff;
+}
+
+.anticon-eye.table-operate-icon{
+  color: #1890ff;
+}
+
+.anticon-printer.table-operate-icon{
+  color: #a0a2a5;
+}
+.anticon-environment.table-operate-icon{
+  color: #0ea10e;
+}
+
+

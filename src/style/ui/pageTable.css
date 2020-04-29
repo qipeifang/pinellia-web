@@ -1,0 +1,33 @@
+
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    /* overflow: hidden; */
+    max-height: 50px !important;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ant-table-header>table,
+.ant-table-body > table{
+    width: 100% !important;
+    table-layout:fixed;
+}
+
+.ant-table-header{
+    margin-bottom: -20px !important;
+    padding-bottom: 20px !important;
+    overflow: auto !important;
+}
+
+.page-table-div{
+    overflow-y: auto;
+}
+
+.ant-table-body{
+    overflow-y: visible !important;
+}
